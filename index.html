@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>🌐 批量图片翻译助手</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 批量图片翻译助手</h1>
+
+    <input type="file" id="imageInput" multiple accept="image/*"><br>
+    <label for="langSelect">选择翻译语言：</label>
+    <select id="langSelect">
+      <option value="en">英文 (en)</option>
+      <option value="ja">日文 (ja)</option>
+      <option value="vi">越南语 (vi)</option>
+      <option value="th">泰语 (th)</option>
+      <option value="ms">马来语 (ms)</option>
+      <option value="zh-TW">中文繁體 (zh-TW)</option>
+    </select>
+    <button id="startBtn">🚀 开始翻译</button>
+    <button id="exportCsv">导出 CSV</button>
+
+    <div id="statusArea"></div>
+    <div id="iframeContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

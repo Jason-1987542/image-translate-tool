@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#statusArea {
+  margin-top: 20px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+iframe {
+  width: 320px;
+  height: 480px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
